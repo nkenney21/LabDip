@@ -21,6 +21,8 @@ public class FoodServiceTipCalculator implements TipStructure{
     private static final double POOR_RATE = 0.10;
 
     private double bill;
+
+ 
     public enum ServiceQuality {
         GOOD, FAIR, POOR
     }
