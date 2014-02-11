@@ -5,7 +5,7 @@ package dip.lab3.student.solution1;
  *
  * @author neilkenney
  */
-public class ConsoleOutput implements MessageOutput{
+public class ConsoleOutputMessage implements MessageOutput{
     
     @Override
     public void sendMessage(Message e){
