@@ -10,7 +10,7 @@ package dip.lab2.student.solution1;
  *
  * @author neilkenney
  */
-public final class BaggageServiceTipCalculator implements TipStructure{
+public final class BaggageServiceTipCalculator implements TipCalculator{
     private static final double MIN_BILL = 0.00;
     private static final double MAX_BILL = 100.00;
     private static final String BILL_ENTRY_ERR =

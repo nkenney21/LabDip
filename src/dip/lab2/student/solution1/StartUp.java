@@ -18,10 +18,10 @@ public class StartUp {
         
         
         
-        TipStructure tip1 = new BaggageServiceTipCalculator(ServiceQuality.GOOD,4);
+        TipCalculator tip1 = new BaggageServiceTipCalculator(ServiceQuality.GOOD,4);
         
         
-        TipStructure [] tips = {tip1};
+        TipCalculator [] tips = {tip1};
         RetrieveTip rt = new RetrieveTip();
         
         for(int i = 0; i < tips.length; i++){

@@ -12,7 +12,7 @@ package dip.lab2.student.solution1;
  */
 public class RetrieveTip {
     
-    public double getTotalTip(TipStructure a){
+    public double getTotalTip(TipCalculator a){
         return a.getTip();
     }
 }

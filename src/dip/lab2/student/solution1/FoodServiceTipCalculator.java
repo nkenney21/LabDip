@@ -10,7 +10,7 @@ package dip.lab2.student.solution1;
  *
  * @author neilkenney
  */
-public class FoodServiceTipCalculator implements TipStructure{
+public class FoodServiceTipCalculator implements TipCalculator{
     
     
     private static final double MIN_BILL = 0.00;
