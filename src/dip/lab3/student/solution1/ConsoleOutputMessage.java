@@ -8,7 +8,7 @@ package dip.lab3.student.solution1;
 public class ConsoleOutputMessage implements MessageOutput{
     
     @Override
-    public void sendMessage(Message e){
+    public void sendMessage(MessageInput e){
         System.out.println(e.getMessage());
     }
     

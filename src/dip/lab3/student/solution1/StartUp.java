@@ -7,7 +7,7 @@ package dip.lab3.student.solution1;
  */
 public class StartUp {
     public static void main(String[] args) {
-        Message msg = new RandomMessage();
+        MessageInput msg = new RandomMessage();
         MessageOutput mOut = new ConsoleOutputMessage();
         MessageService mServ = new MessageService();
         

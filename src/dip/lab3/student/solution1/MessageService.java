@@ -7,7 +7,7 @@ package dip.lab3.student.solution1;
  */
 public class MessageService {
     
-    public void createMessage(Message a, MessageOutput b){
+    public void createMessage(MessageInput a, MessageOutput b){
         b.sendMessage(a);
     }
     

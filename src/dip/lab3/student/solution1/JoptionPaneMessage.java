@@ -13,7 +13,7 @@ public class JoptionPaneMessage implements MessageOutput {
   
 
     @Override
-    public void sendMessage(Message e) {
+    public void sendMessage(MessageInput e) {
         JOptionPane.showMessageDialog(null, e.getMessage());
     }
     

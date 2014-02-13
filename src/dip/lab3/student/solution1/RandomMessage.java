@@ -7,7 +7,7 @@ import java.util.Random;
  *
  * @author neilkenney
  */
-public class RandomMessage implements Message{
+public class RandomMessage implements MessageInput{
     
     String[] msg = {"Hello World", "Goodbye World", "I love Java"};
 

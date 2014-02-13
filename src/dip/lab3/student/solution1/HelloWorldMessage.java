@@ -6,7 +6,7 @@ package dip.lab3.student.solution1;
  *
  * @author neilkenney
  */
-public class HelloWorldMessage implements Message{
+public class HelloWorldMessage implements MessageInput{
 
    private final String str = "Hello World";
 
